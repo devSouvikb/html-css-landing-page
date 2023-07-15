@@ -37,10 +37,10 @@ a {
 
 /* font styles */
 
-/* heading styles */
 .heading {
   color: var(--secondary-color);
   font-family: "Poppins", sans-serif;
+  font-weight: 700;
 }
 
 h1 {
@@ -53,4 +53,25 @@ h2 {
 
 h3 {
   font-size: 1.5rem;
+}
+
+.txt-small {
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+.txt-medium {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--secondary-color);
+}
+
+.txt-large {
+  font-size: 20px;
+  color: var(--text-secondary);
+  line-height: 30px;
+}
+
+.line-height {
+  line-height: 30px;
 }
