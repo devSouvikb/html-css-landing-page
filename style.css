@@ -75,3 +75,16 @@ h3 {
 .line-height {
   line-height: 30px;
 }
+
+/* banner --------------------------------------------------------------*/
+.banner {
+  height: 50px;
+
+  background-color: var(--header-bgc);
+  background-image: url(./assets/asset\ 32.png);
+  background-size: 300px;
+}
+
+.banner p {
+  color: #ffffff;
+}
