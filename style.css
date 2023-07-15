@@ -72,8 +72,16 @@ h3 {
   line-height: 30px;
 }
 
+/* ---------------------------------------------------------------------------- */
+
 .line-height {
   line-height: 30px;
+}
+
+.flex-item-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* banner --------------------------------------------------------------*/
