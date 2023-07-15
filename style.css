@@ -16,3 +16,14 @@ body {
   font-family: "Roboto", sans-serif;
   position: relative;
 }
+
+/* color variables */
+:root {
+  --primary-color: #2294ed;
+  --secondary-color: #183b56;
+  --btn-hover: #0061ad;
+  --text-secondary: #577592;
+  --header-bgc: #4dadf7;
+  --footer-bgc: #ebf2fa;
+  --sub-footer-bgc: #b9cde4;
+}
