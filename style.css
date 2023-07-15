@@ -17,7 +17,12 @@ body {
   position: relative;
 }
 
-/* color variables */
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* color variables --------------------------------------------------------------- */
 :root {
   --primary-color: #2294ed;
   --secondary-color: #183b56;
@@ -26,4 +31,26 @@ body {
   --header-bgc: #4dadf7;
   --footer-bgc: #ebf2fa;
   --sub-footer-bgc: #b9cde4;
+}
+
+/* utility classes --------------------------------------------------------------- */
+
+/* font styles */
+
+/* heading styles */
+.heading {
+  color: var(--secondary-color);
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
 }
