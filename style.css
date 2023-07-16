@@ -165,3 +165,39 @@ h3 {
 .banner p {
   color: #ffffff;
 }
+
+/* navbar --------------------------------------------------------------*/
+nav {
+  height: 40px;
+  margin-top: 30px;
+  color: var(--secondary-color);
+}
+
+.logo-container {
+  gap: 5px;
+}
+
+.logo {
+  width: 170px;
+}
+
+.nav-link {
+  background-image: url(./assets/asset\ 33.svg);
+}
+
+.nav-txt {
+  padding: 6px 16px;
+}
+
+.nav-item-container {
+  gap: 20px;
+}
+
+.nav-ul {
+  gap: 40px;
+  list-style: none;
+}
+
+.nav-btn {
+  gap: 20px;
+}
