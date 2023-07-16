@@ -483,3 +483,25 @@ footer {
   margin-top: 8px;
   color: var(--text-secondary);
 }
+
+/* sub footer --------------------------------------------------------------------*/
+.sub-footer {
+  background-color: var(--sub-footer-bgc);
+  padding: 20px 300px;
+}
+
+.sub-footer-texts {
+  gap: 30px;
+}
+
+.sub-footer-txt {
+  color: var(--secondary-color);
+}
+
+.sub-footer-logos {
+  gap: 30px;
+}
+
+.sub-footer-logo {
+  width: 20px;
+}
