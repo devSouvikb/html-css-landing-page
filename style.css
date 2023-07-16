@@ -269,3 +269,46 @@ header {
 .feature-txt {
   margin-bottom: 20px;
 }
+
+/* section description --------------------------------------------------------------------- */
+.descriptions {
+  padding: 0 240px;
+  margin-top: -60px;
+}
+
+.description {
+  gap: 80px;
+  margin-bottom: 50px;
+}
+
+.description-img {
+  width: 500px;
+}
+
+.description-heading {
+  margin: 10px 0;
+}
+
+.description-logo {
+  height: 30px;
+  margin: 20px 0;
+}
+
+.quoat {
+  background-image: url(./assets/asset\ 35.svg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  margin-top: -15px;
+  margin-left: -30px;
+  padding-top: 15px;
+  padding-left: 30px;
+}
+
+.profile {
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.profile-img {
+  height: 50px;
+}
