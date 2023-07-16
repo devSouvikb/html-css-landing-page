@@ -158,6 +158,15 @@ h3 {
   gap: 20px;
 }
 
+.forward-arrow {
+  color: var(--primary-color);
+  font-size: 12px;
+}
+
+.txt-align-center {
+  text-align: center;
+}
+
 /* banner --------------------------------------------------------------*/
 .banner {
   height: 50px;
@@ -217,7 +226,6 @@ header {
 /* Company section -------------------------------------------------------------------*/
 .company-txt {
   margin-bottom: 30px;
-  text-align: center;
 }
 
 .company-logo {
@@ -226,4 +234,38 @@ header {
 
 .godaddy-logo {
   height: 30px;
+}
+
+/* feature section ---------------------------------------------------------------------*/
+.feature {
+  background-image: url(./assets/asset\ 34.svg);
+  background-size: 800px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 160px 260px;
+}
+
+.feature-heading {
+  margin-bottom: 10px;
+}
+
+.feature-container {
+  margin-top: 40px;
+  gap: 60px;
+}
+
+.feature-item {
+  width: 400px;
+}
+
+.feature-img {
+  height: 40px;
+}
+
+.feature-item-heading {
+  margin: 10px 0;
+}
+
+.feature-txt {
+  margin-bottom: 20px;
 }
