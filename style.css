@@ -14,7 +14,6 @@ body {
   height: 100%;
   width: 100%;
   font-family: "Roboto", sans-serif;
-  position: relative;
 }
 
 a {
@@ -504,4 +503,26 @@ footer {
 
 .sub-footer-logo {
   width: 20px;
+}
+
+/* chat bot -------------------------------------------------------------------*/
+.chat-bot {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  transition: 0.2s ease-in-out;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+
+.chat-bot:hover {
+  transform: scale(1.1);
+}
+
+.chat-bot-img {
+  width: 24px;
+  filter: invert(95%) sepia(14%) saturate(0%) hue-rotate(153deg)
+    brightness(104%) contrast(105%);
 }
