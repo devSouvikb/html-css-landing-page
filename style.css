@@ -167,6 +167,10 @@ h3 {
   text-align: center;
 }
 
+.color {
+  color: var(--sub-footer-bgc);
+}
+
 /* banner --------------------------------------------------------------*/
 .banner {
   height: 50px;
@@ -369,4 +373,79 @@ header {
   bottom: 20px;
   left: 20px;
   right: 20px;
+}
+
+/* subscription section ------------------------------------------------------------------- */
+.subscription {
+  background-color: var(--secondary-color);
+  padding: 30px 170px;
+  gap: 30px;
+}
+
+.subscription-heading {
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.bold {
+  color: #ffffff;
+  font-weight: 700;
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+
+.subscription-list-container {
+  gap: 40px;
+  margin-left: 16px;
+}
+
+.subscription-btn-container {
+  gap: 10px;
+  margin-top: 42px;
+}
+
+.subscription-btn {
+  background-color: var(--secondary-color);
+  border: 1px solid #b9cde4;
+}
+
+.subscription-btn:hover {
+  border: 1px solid #b9cde4;
+}
+
+.subscription-img-container {
+  height: 500px;
+  width: 100%;
+  background-image: url(./assets/asset\ 40.png);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.subscription-img-txt {
+  height: 240px;
+  width: 250px;
+  background-image: url(./assets/asset\ 41.png);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  flex-direction: column;
+}
+
+.img-txt {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--secondary-color);
+}
+
+.img-txt-price {
+  margin: 2px 0;
+  color: #8ba6c0;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.price {
+  font-size: 50px;
+  color: var(--primary-color);
 }
