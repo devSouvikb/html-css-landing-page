@@ -201,3 +201,18 @@ nav {
 .nav-btn {
   gap: 20px;
 }
+
+/* header -----------------------------------------------------------------------*/
+header {
+  margin-top: 35px;
+  gap: 80px;
+}
+
+.header-txt {
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+
+.header-img {
+  width: 600px;
+}
