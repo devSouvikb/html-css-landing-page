@@ -463,3 +463,23 @@ header {
   margin-top: 32px;
   margin-bottom: 60px;
 }
+
+/* footer section --------------------------------------------------------------------*/
+footer {
+  background-color: var(--footer-bgc);
+  padding: 80px 170px;
+}
+
+.footer-container {
+  justify-content: space-between;
+}
+
+.footer-heading {
+  color: var(--secondary-color);
+  margin-bottom: 16px;
+}
+
+.footer-txt {
+  margin-top: 8px;
+  color: var(--text-secondary);
+}
