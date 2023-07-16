@@ -154,6 +154,10 @@ h3 {
   color: var(--primary-color);
 }
 
+.gap-20 {
+  gap: 20px;
+}
+
 /* banner --------------------------------------------------------------*/
 .banner {
   height: 50px;
@@ -189,22 +193,15 @@ nav {
   padding: 6px 16px;
 }
 
-.nav-item-container {
-  gap: 20px;
-}
-
 .nav-ul {
   gap: 40px;
   list-style: none;
 }
 
-.nav-btn {
-  gap: 20px;
-}
-
 /* header -----------------------------------------------------------------------*/
 header {
   margin-top: 35px;
+  margin-bottom: 60px;
   gap: 80px;
 }
 
@@ -215,4 +212,18 @@ header {
 
 .header-img {
   width: 600px;
+}
+
+/* Company section -------------------------------------------------------------------*/
+.company-txt {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.company-logo {
+  height: 46px;
+}
+
+.godaddy-logo {
+  height: 30px;
 }
